@@ -138,6 +138,8 @@ screen = tk.Tk()
 screen.title("Custom Password Generator")
 screen.configure(bg="#e6d1ae")
 
+screen.resizable(False, False)
+
 screen.columnconfigure(0, weight=1)
 screen.rowconfigure(0, weight=1)
 
